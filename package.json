@@ -4,7 +4,7 @@
   "description": "roman numeral encoder/decoder from/to integers. Inspired by exercism.io, wanted to write my own spec",
   "main": "roman-numerals.js",
   "scripts": {
-    "test": "babel roman-numerals.spec.js --presets=env"
+    "test": "mocha --compilers js:@babel/register roman-numerals.spec.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,9 @@
   "dependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
-    "@babel/preset-env": "^7.1.0"
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "mocha": "^5.2.0"
   }
 }
