@@ -4,7 +4,8 @@
   "description": "roman numeral encoder/decoder from/to integers. Inspired by exercism.io, wanted to write my own spec",
   "main": "roman-numerals.js",
   "scripts": {
-    "test": "mocha --compilers js:@babel/register roman-numerals.spec.js"
+    "test": "mocha --require @babel/register roman-numerals.spec.js",
+    "watch": "mocha --require @babel/register --watch roman-numerals.spec.js"
   },
   "repository": {
     "type": "git",
