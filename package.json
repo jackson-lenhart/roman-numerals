@@ -1,0 +1,30 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "roman numeral encoder/decoder from/to integers. Inspired by exercism.io, wanted to write my own spec",
+  "main": "roman-numerals.js",
+  "scripts": {
+    "test": "babel roman-numerals.spec.js --presets=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackson-lenhart/roman-numerals.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercise",
+    "roman",
+    "numeral"
+  ],
+  "author": "Jackson Lenhart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackson-lenhart/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/jackson-lenhart/roman-numerals#readme",
+  "dependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
